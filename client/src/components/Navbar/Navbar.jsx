@@ -9,7 +9,7 @@ export const Navbar = () => {
 
     var User = null
     return (
-        <nav>
+        <nav className='main-nav'>
             <div className="navbar">
                 <Link to='/' className="nav-item nav-btn nav-logo">
                     <div className='logo'>Samvaad</div>
